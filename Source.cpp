@@ -1,6 +1,6 @@
 /*
 JPEG File Renamer
-Copyright Berkan Mertan (YEAH THAT'S RIGHT HOW DARE YOU REMOVE THIS LINE)
+Copyright Berkm125
 */
 
 //All the needed libraries don't remove or it will not work.
@@ -12,7 +12,7 @@ Copyright Berkan Mertan (YEAH THAT'S RIGHT HOW DARE YOU REMOVE THIS LINE)
 #include <string.h>
 #include <errno.h>
 #include <iostream>
-#include "dirent.h" //Had to copy library into local program directory or else program would not work. This library normally comes with Linux/UNIX
+#include <dirent.h> //You need to install this library unless you run Linux/UNIX.
 
 //Define constants and link needed libraries
 #define MAX_PROPTYPE_SIZE 30 
